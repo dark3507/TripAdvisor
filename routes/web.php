@@ -53,3 +53,15 @@ Route::get('/viajes', function () {
 Route::get('/configuracion', function () {
     return view('configuracion');
 })->name('configuracion');
+
+
+// Ruta para la página de restaurantes
+Route::get('/restaurantes', function () {
+    return view('restaurantes');
+})->name('restaurantes');
+
+// Ruta para procesar reservas (POST)
+Route::post('/restaurantes/reservar', function () {
+    // Lógica para procesar reservas
+    return back()->with('success', 'Reserva realizada con éxito');
+});

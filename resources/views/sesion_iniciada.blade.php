@@ -34,7 +34,7 @@
                 <div class="flex items-center space-x-4">
                     <a href="#" class="text-gray-700 hover:text-green-600">Destinos</a>
                     <a href="#" class="text-gray-700 hover:text-green-600">Actividades</a>
-                    <a href="#" class="text-gray-700 hover:text-green-600">Restaurantes</a>
+                    <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
 
                     <!-- Menú de usuario -->
                     <div class="relative ml-3">
