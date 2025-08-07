@@ -58,9 +58,7 @@
         <section class="bg-white rounded-lg shadow-md p-8 mb-8 text-center">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Planifica a tu manera con la función de Viajes</h2>
             <p class="text-gray-600 max-w-2xl mx-auto mb-6">
-                Crea un Viaje con tus lugares guardados o usa la IA para obtener recomendaciones personalizadas, 
-                colabora con amigos y organiza tus ideas de viaje.
-            </p>
+                Crea un Viaje con tus lugares guardados, reseñas y fotos.
             <button class="btn-primary text-white px-6 py-2 rounded-md font-medium">
                 Crear mi primer viaje
             </button>
