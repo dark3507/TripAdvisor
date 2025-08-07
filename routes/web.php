@@ -2,6 +2,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+
 // Página principal
 Route::get('/inicio', function () {
     return view('inicio');
@@ -25,3 +26,30 @@ Route::get('/busqueda', function () {
     return view('busqueda');
 });
 
+
+Route::get('/sesion', function () {
+    return view('sesion_iniciada');
+});
+
+//ruta de sesion iniciada
+Route::post('/login', function (Request $request) {
+    // Aquí validaremos email y contraseña 
+    // Por ahora solo esta redirigido a la vista de sesión iniciada
+
+    return view('sesion_iniciada');
+})->name('login');
+
+// Ruta para mostrar la página de perfil
+Route::get('/perfil', function () {
+    return view('perfil');
+});
+
+// ruta de viajes
+Route::get('/viajes', function () {
+    return view('viajes');
+})->name('viajes');
+
+//ruta configuracion
+Route::get('/configuracion', function () {
+    return view('configuracion');
+})->name('configuracion');
