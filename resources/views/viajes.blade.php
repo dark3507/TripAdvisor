@@ -17,9 +17,9 @@
                     <span class="text-xl font-bold text-green-600">TripAdvisor</span>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="#" class="text-gray-700 hover:text-green-600">Destinos</a>
-                    <a href="#" class="text-gray-700 hover:text-green-600">Actividades</a>
-                    <a href="#" class="text-gray-700 hover:text-green-600">Restaurantes</a>
+                    <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>
+                    <a href="/actividades" class="text-gray-700 hover:text-green-600">Actividades</a>
+                    <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
                     <a href="/viajes" class="text-gray-700 font-medium hover:text-green-600">Mis Viajes</a>
                     <!-- Avatar de usuario -->
                     <div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">

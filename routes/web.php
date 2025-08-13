@@ -65,3 +65,14 @@ Route::post('/restaurantes/reservar', function () {
     // Lógica para procesar reservas
     return back()->with('success', 'Reserva realizada con éxito');
 });
+
+// Ruta para mostrar la página de actividades
+
+Route::get('/actividades', function () {
+    return view('actividades');
+});
+
+
+Route::get('/destinos', function () {
+    return view('destinos'); // Se llama al archivo resources/views/destinos.blade.php
+});

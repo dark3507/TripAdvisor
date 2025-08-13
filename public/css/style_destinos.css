@@ -1,0 +1,15 @@
+.filter-section {
+    transition: all 0.2s ease;
+}
+.filter-section:hover {
+    background-color: #f8fafc;
+}
+.destination-card {
+    transition: all 0.3s ease;
+}
+.destination-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.rating-stars {
+    color: #00aa6c;
+}
