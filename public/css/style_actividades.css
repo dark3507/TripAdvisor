@@ -1,54 +1,19 @@
-/* Estilos base */
+.filter-section {
+    transition: all 0.2s ease;
+}
+.filter-section:hover {
+    background-color: #f8fafc;
+}
 .activity-card {
     transition: all 0.3s ease;
-    border: 1px solid #e5e7eb;
 }
-
 .activity-card:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
 }
-
-.benefit-card {
-    transition: all 0.2s ease;
-    border: 1px solid #e5e7eb;
-}
-
-.benefit-card:hover {
-    background-color: #f8fafc;
-    transform: translateY(-2px);
-}
-
-.trend-card {
-    transition: all 0.2s ease;
-}
-
-.trend-card:hover {
-    transform: translateY(-2px);
-}
-
 .rating-stars {
     color: #00aa6c;
 }
-
-/* Efectos hover para botones */
-.btn-reservar {
-    transition: all 0.2s ease;
-}
-
-.btn-reservar:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive adjustments */
-@media (max-width: 640px) {
-    .activity-card .flex {
-        flex-direction: column;
-    }
-    
-    .activity-card button {
-        width: 100%;
-        margin-top: 1rem;
-    }
+.sponsored-badge {
+    background-color: #f0f7eb;
+    color: #00aa6c;
 }

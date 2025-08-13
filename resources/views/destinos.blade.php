@@ -22,9 +22,11 @@
                     <a href="/actividades" class="text-gray-700 hover:text-green-600">Actividades</a>
                     <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
                     <a href="/viajes" class="text-gray-700 hover:text-green-600">Mis Viajes</a>
-                    <div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">
-                        <span>JP</span>
-                    </div>
+                    <a href="{{ url('/sesion') }}">
+        <div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">
+            <span>JP</span>
+        </div>
+    </a>
                 </div>
             </div>
         </div>
