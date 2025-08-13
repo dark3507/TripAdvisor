@@ -6,27 +6,7 @@
     <title>Restaurantes en Orlando - TripAdvisor</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-        .filter-section {
-            transition: all 0.2s ease;
-        }
-        .filter-section:hover {
-            background-color: #f8fafc;
-        }
-        .restaurant-card {
-            transition: all 0.3s ease;
-        }
-        .restaurant-card:hover {
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-        .rating-stars {
-            color: #00aa6c;
-        }
-        .sponsored-badge {
-            background-color: #f0f7eb;
-            color: #00aa6c;
-        }
-    </style>
+    <link href="{{ asset('css/style_restaurantes.css') }}" rel="stylesheet">
 </head>
 <body class="bg-gray-50 font-sans">
     <!-- Barra de navegación -->

@@ -5,22 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripAdvisor - Iniciar Sesión</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        .social-btn { 
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            margin: 0 5px;
-            color: white;
-            font-weight: bold;
-        }
-        .google { background-color: #DB4437; }
-        .facebook { background-color: #4267B2; }
-        .twitter { background-color: #1DA1F2; }
-    </style>
+    <link href="{{ asset('css/style_inicio_sesion.css') }}" rel="stylesheet">
 </head>
 <body class="bg-green-100 min-h-screen flex items-center justify-center">
     <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">

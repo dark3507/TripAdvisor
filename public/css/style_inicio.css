@@ -1,0 +1,17 @@
+.hero-bg {
+    background-image: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21');
+    background-size: cover;
+    background-position: center;
+}
+
+.search-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.category-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+

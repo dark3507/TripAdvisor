@@ -4,25 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripAdvisor - Encuentra tu próximo destino</title>
+
+
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-        .hero-bg {
-            background-image: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21');
-            background-size: cover;
-            background-position: center;
-        }
-        .search-card {
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-        }
-        .category-icon {
-            width: 24px;
-            height: 24px;
-            margin-right: 8px;
-        }
-    </style>
+
+    <!--CSS -->
+    <link rel="stylesheet" href="{{ asset('css/style_inicio.css') }}">
 </head>
 <body class="font-sans bg-gray-50">
+
     <!-- Barra de navegación -->
     <nav class="bg-white shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,9 +25,9 @@
                     <a href="#" class="text-gray-700 hover:text-green-600">Destinos</a>
                     <a href="#" class="text-gray-700 hover:text-green-600">Actividades</a>
                     <a href="#" class="text-gray-700 hover:text-green-600">Restaurantes</a>
-                   <a href="/inicio_sesion" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">
-    Iniciar sesión
-</a>
+                    <a href="/inicio_sesion" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">
+                        Iniciar sesión
+                    </a>
                 </div>
             </div>
         </div>
@@ -211,7 +202,6 @@
             </div>
         </div>
     </footer>
-
 
 </body>
 </html>

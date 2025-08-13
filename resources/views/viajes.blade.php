@@ -6,22 +6,7 @@
     <title>Mis Viajes - TripAdvisor</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-        .trip-card {
-            transition: all 0.3s ease;
-        }
-        .trip-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-        .btn-primary {
-            background-color: #1a936f;
-            transition: background-color 0.3s;
-        }
-        .btn-primary:hover {
-            background-color: #14805d;
-        }
-    </style>
+    <link href="{{ asset('css/style_viajes.css') }}" rel="stylesheet">
 </head>
 <body class="bg-gray-50 font-sans">
     <!-- Barra de navegación -->
