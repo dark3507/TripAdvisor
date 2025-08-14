@@ -91,3 +91,8 @@ Route::get('/nueva_reserva_actividades', function () {
 Route::get('/nueva_reserva_restaurantes', function () {
     return view('nueva_reserva_restaurantes');
 });
+
+
+Route::get('/crear_viaje', function () {
+    return view('crear_viaje');
+});

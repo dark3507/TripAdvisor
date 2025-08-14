@@ -38,7 +38,10 @@
         <div class="flex justify-between items-center mb-8">
             <h1 class="text-3xl font-bold text-gray-800">Mis viajes</h1>
             <button class="btn-primary text-white px-6 py-3 rounded-md font-medium flex items-center">
-                <i class="fas fa-plus mr-2"></i> Crear un viaje nuevo
+                <a href="{{ url('/crear_viaje') }}" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 flex items-center">
+    <i class="fas fa-plus mr-2"></i> Crear un viaje nuevo
+</a>
+
             </button>
         </div>
 
@@ -48,7 +51,10 @@
             <p class="text-gray-600 max-w-2xl mx-auto mb-6">
                 Crea un Viaje con tus lugares guardados, reseñas y fotos.
             <button class="btn-primary text-white px-6 py-2 rounded-md font-medium">
-                Crear mi primer viaje
+                <a href="{{ url('/crear_viaje') }}" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 flex items-center">
+    <i class="fas fa-plus mr-2"></i> Crear un viaje nuevo
+</a>
+
             </button>
         </section>
 
