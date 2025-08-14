@@ -96,3 +96,4 @@ Route::get('/nueva_reserva_restaurantes', function () {
 Route::get('/crear_viaje', function () {
     return view('crear_viaje');
 });
+

@@ -114,3 +114,21 @@ input {
     border-radius: 6px;
     cursor: pointer;
 }
+
+
+.viaje-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.viaje-card h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #004f32;
+}
+.viaje-card p {
+    margin: 0;
+    color: #333;
+}

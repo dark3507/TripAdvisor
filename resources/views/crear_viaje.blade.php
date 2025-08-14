@@ -55,5 +55,7 @@
             document.getElementById("formulario-panel").classList.remove("activo");
         }
     </script>
+
+    
 </body>
 </html>

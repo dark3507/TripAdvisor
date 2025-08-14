@@ -52,7 +52,7 @@
                 Crea un Viaje con tus lugares guardados, reseñas y fotos.
             <button class="btn-primary text-white px-6 py-2 rounded-md font-medium">
                 <a href="{{ url('/crear_viaje') }}" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 flex items-center">
-    <i class="fas fa-plus mr-2"></i> Crear un viaje nuevo
+    <i class="fas fa-plus mr-2"></i> Crear mis viajes
 </a>
 
             </button>
