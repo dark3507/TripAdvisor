@@ -72,7 +72,22 @@ Route::get('/actividades', function () {
     return view('actividades');
 });
 
-
+// Ruta para mostrar la página de destinos
 Route::get('/destinos', function () {
-    return view('destinos'); // Se llama al archivo resources/views/destinos.blade.php
+    return view('destinos'); 
+});
+
+// Ruta para mostrar la página de reservas
+Route::get('/reservas', function () {
+    return view('reservas');
+});
+
+// Ruta para mostrar la página de nueva reserva
+Route::get('/nueva_reserva_actividades', function () {
+    return view('nueva_reserva_actividades');
+});
+
+// Ruta para mostrar la página de nueva reserva de restaurantes
+Route::get('/nueva_reserva_restaurantes', function () {
+    return view('nueva_reserva_restaurantes');
 });

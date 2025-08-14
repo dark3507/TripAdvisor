@@ -221,9 +221,11 @@
                                 <p class="text-sm text-gray-600 italic">"¡Debo intentarlo!!"</p>
                             </div>
                         </div>
-                        <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md">
-                            Reservar
-                        </button>
+                        <a href="{{ url('/nueva_reserva_restaurantes') }}" 
+   class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+    Reservar
+</a>
+
                     </div>
                 </div>
 
@@ -258,9 +260,10 @@
                                 <p class="text-sm text-gray-600 italic">"Excelente comida y sazón."</p>
                             </div>
                         </div>
-                        <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md">
-                            Reservar
-                        </button>
+                                <a href="{{ url('/nueva_reserva_restaurantes') }}" 
+   class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+    Reservar
+</a>
                     </div>
                 </div>
 
@@ -295,9 +298,10 @@
                                         <p class="text-sm text-gray-600 italic">"adorable lugar"</p>
                                     </div>
                                 </div>
-                                <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md">
-                                    Reservar
-                                </button>
+                                        <a href="{{ url('/nueva_reserva_restaurantes') }}" 
+   class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+    Reservar
+</a>
                             </div>
                         </div>
                     </div>
@@ -334,9 +338,10 @@
                                         <p class="text-sm text-gray-600 italic">"Excellent food great atmosphere"</p>
                                     </div>
                                 </div>
-                                <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md">
-                                    Reservar
-                                </button>
+                                       <a href="{{ url('/nueva_reserva_restaurantes') }}" 
+   class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+    Reservar
+</a>
                             </div>
                         </div>
                     </div>

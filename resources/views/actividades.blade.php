@@ -150,9 +150,10 @@
                                 <p class="text-sm text-gray-600 italic">"¡Muy recomendable!"</p>
                             </div>
                         </div>
-                        <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md">
-                            Reservar
-                        </button>
+                        <a href="{{ url('/nueva_reserva_actividades') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+    Reservar
+</a>
+
                     </div>
                 </div>
 
@@ -181,9 +182,9 @@
                                 <p class="text-sm text-gray-600 italic">"Experiencia única"</p>
                             </div>
                         </div>
-                        <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md">
-                            Reservar
-                        </button>
+                         <a href="{{ url('/nueva_reserva_actividades') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+    Reservar
+</a>
                     </div>
                 </div>
 
