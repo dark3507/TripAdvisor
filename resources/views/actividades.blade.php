@@ -15,7 +15,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <span class="text-xl font-bold text-green-600">TripAdvisor</span>
+                    <a href="{{ url('/sesion') }}" class="text-xl font-bold text-green-600">
+    TripAdvisor
+</a>
+
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>
@@ -23,11 +26,11 @@
                     <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
                     <a href="/hoteles" class="text-gray-600 font-medium">Hoteles</a>
                     <a href="/viajes" class="text-gray-700 hover:text-green-600">Mis Viajes</a>
-                     <a href="{{ url('/sesion') }}">
-        <div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">
-            <span>JP</span>
-        </div>
-    </a>
+                    <a href="{{ url('/sesion') }}">
+                        <div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">
+                            <span>JP</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -131,6 +134,7 @@
                     <div class="flex justify-between items-start">
                         <div>
                             <h2 class="text-xl font-bold text-gray-800">Tour por los parques temáticos</h2>
+                            <img src="https://th.bing.com/th/id/R.e9bd151c2e09d70205ff9f0d8cd47886?rik=8dG0D2tP2H8wow&riu=http%3a%2f%2fparquesalegres.org%2fwp-content%2fuploads%2f2019%2f04%2fentrada-8.jpg&ehk=6ZYwFFNJWcSw2dA2hROdmRbjV2OQ%2f9PPX9WDDm39ltM%3d&risl=&pid=ImgRaw&r=00" alt="Parques temáticos Orlando" class="w-full h-48 object-cover rounded-lg mt-2">
                             <div class="flex items-center mt-1">
                                 <div class="rating-stars">
                                     <i class="fas fa-star"></i>
@@ -152,9 +156,8 @@
                             </div>
                         </div>
                         <a href="{{ url('/nueva_reserva_actividades') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
-    Reservar
-</a>
-
+                            Reservar
+                        </a>
                     </div>
                 </div>
 
@@ -163,6 +166,7 @@
                     <div class="flex justify-between items-start">
                         <div>
                             <h2 class="text-xl font-bold text-gray-800">Paseo en globo aerostático</h2>
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/50/a1/paseo-en-globo-aerostatico.jpg?w=1200&h=-1&s=1" alt="Paseo en globo Orlando" class="w-full h-48 object-cover rounded-lg mt-2">
                             <div class="flex items-center mt-1">
                                 <div class="rating-stars">
                                     <i class="fas fa-star"></i>
@@ -183,9 +187,73 @@
                                 <p class="text-sm text-gray-600 italic">"Experiencia única"</p>
                             </div>
                         </div>
-                         <a href="{{ url('/nueva_reserva_actividades') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
-    Reservar
-</a>
+                        <a href="{{ url('/nueva_reserva_actividades') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+                            Reservar
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Actividad 3 -->
+                <div class="activity-card bg-white rounded-lg shadow-sm p-6 mb-6">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-800">Safari por la fauna de Florida</h2>
+                            <img src="https://visitcentralflorida.org/wp-content/uploads/2022/03/Safari-Wilderness.jpg" alt="Safari Florida" class="w-full h-48 object-cover rounded-lg mt-2">
+                            <div class="flex items-center mt-1">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="text-gray-600 ml-2">4.6 (256 opiniones)</span>
+                            </div>
+                            <div class="text-gray-600 mt-2">
+                                <span>Duración: 3 horas</span> · 
+                                <span>Costo medio</span> · 
+                                <span class="text-green-600">Disponible hoy</span>
+                            </div>
+                            <div class="mt-4 space-y-1">
+                                <p class="text-sm text-gray-600 italic">"Vimos muchos animales exóticos"</p>
+                                <p class="text-sm text-gray-600 italic">"Gran experiencia para familias"</p>
+                            </div>
+                        </div>
+                        <a href="{{ url('/nueva_reserva_actividades') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+                            Reservar
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Actividad 4 -->
+                <div class="activity-card bg-white rounded-lg shadow-sm p-6 mb-6">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-800">Crucero al atardecer por el lago</h2>
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.B_x38TAMzUhhyO_EGM5HsgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Crucero Lago Orlando" class="w-full h-48 object-cover rounded-lg mt-2">
+                            <div class="flex items-center mt-1">
+                                <div class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="text-gray-600 ml-2">4.8 (198 opiniones)</span>
+                            </div>
+                            <div class="text-gray-600 mt-2">
+                                <span>Duración: 2 horas</span> · 
+                                <span>Costo alto</span> · 
+                                <span class="text-green-600">Disponible mañana</span>
+                            </div>
+                            <div class="mt-4 space-y-1">
+                                <p class="text-sm text-gray-600 italic">"Romántico y relajante"</p>
+                                <p class="text-sm text-gray-600 italic">"Hermosas vistas al atardecer"</p>
+                            </div>
+                        </div>
+                        <a href="{{ url('/nueva_reserva_actividades') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+                            Reservar
+                        </a>
                     </div>
                 </div>
 

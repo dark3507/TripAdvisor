@@ -14,7 +14,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <span class="text-xl font-bold text-green-600">TripAdvisor</span>
+                    <a href="{{ url('/sesion') }}" class="text-xl font-bold text-green-600">
+    TripAdvisor
+</a>
+
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>

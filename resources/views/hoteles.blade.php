@@ -14,7 +14,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <span class="text-xl font-bold text-green-600">TripAdvisor</span>
+                    <a href="{{ url('/sesion') }}" class="text-xl font-bold text-green-600">
+    TripAdvisor
+</a>
+
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>
@@ -22,7 +25,6 @@
                     <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
                     <a href="/hoteles" class="text-green-600 font-medium">Hoteles</a>
                     <a href="/viajes" class="text-gray-700 hover:text-green-600">Mis Viajes</a>
-                    <!-- Avatar usuario -->
                     <a href="{{ url('/sesion') }}">
                         <div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">
                             <span>JP</span>
@@ -79,6 +81,7 @@
                 <!-- Hotel 1 -->
                 <div class="hotel-card bg-white rounded-lg shadow-sm p-6 mb-6 relative">
                     <div class="sponsored-badge text-xs font-medium px-2 py-1 rounded absolute top-4 right-4">Patrocinado</div>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/4c/62/disney-s-grand-floridian.jpg?w=900&h=-1&s=1" alt="Disney's Grand Floridian Resort & Spa" class="w-full h-48 object-cover rounded-lg mb-4">
                     <div class="flex justify-between items-start">
                         <div>
                             <h2 class="text-xl font-bold text-gray-800">Disney's Grand Floridian Resort & Spa</h2>
@@ -105,6 +108,7 @@
 
                 <!-- Hotel 2 -->
                 <div class="hotel-card bg-white rounded-lg shadow-sm p-6 mb-6">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fit=max&w=800&q=80" alt="Holiday Inn Resort Orlando Suites" class="w-full h-48 object-cover rounded-lg mb-4">
                     <div class="flex justify-between items-start">
                         <div>
                             <h2 class="text-xl font-bold text-gray-800">Holiday Inn Resort Orlando Suites</h2>
@@ -126,9 +130,30 @@
                     </div>
                 </div>
 
+               <!-- Hotel 3 -->
+<div class="hotel-card bg-white rounded-lg shadow-sm p-6 mb-6">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/f0/3e/ec/exterior.jpg?w=700&h=-1&s=1" alt="Signia by Hilton Orlando Bonnet Creek" class="w-full h-48 object-cover rounded-lg mb-4">
+    <div class="flex justify-between items-start">
+        <div>
+            <h2 class="text-xl font-bold text-gray-800">Signia by Hilton Orlando Bonnet Creek</h2>
+            <div class="flex items-center mt-1">
+                <div class="rating-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="text-gray-600 ml-2">4.5 (1,850 opiniones)</span>
+            </div>
+            <div class="text-gray-600 mt-2">
+                <span>Lujo</span> · <span>$$$</span> · <span class="text-green-600">Disponible</span>
             </div>
         </div>
-    </main>
+        <a href="{{ url('/nueva_reserva_hoteles') }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md inline-block">
+            Reservar
+        </a>
+    </div>
+</div>
+
 
     <!-- Pie -->
     <footer class="bg-gray-100 border-t border-gray-200 py-8">

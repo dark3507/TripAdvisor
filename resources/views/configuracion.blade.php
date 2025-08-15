@@ -11,8 +11,10 @@
     <!-- Barra de navegación simplificada -->
     <nav class="bg-white shadow-sm mb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-            <span class="text-xl font-bold text-green-600 cursor-pointer">TripAdvisor</span>
-            <a href="/inicio" class="text-green-600 hover:underline font-semibold">Inicio</a>
+            <a href="{{ url('/sesion') }}" class="text-xl font-bold text-green-600">
+    TripAdvisor
+</a>
+
         </div>
     </nav>
 
