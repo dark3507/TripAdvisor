@@ -97,3 +97,12 @@ Route::get('/crear_viaje', function () {
     return view('crear_viaje');
 });
 
+// Ruta para mostrar la página de hoteles
+Route::get('/hoteles', function () {
+    return view('hoteles');
+});
+
+
+Route::get('/nueva_reserva_hoteles', function () {
+    return view('nueva_reserva_hoteles');
+});

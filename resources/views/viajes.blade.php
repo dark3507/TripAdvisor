@@ -20,6 +20,7 @@
                     <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>
                     <a href="/actividades" class="text-gray-700 hover:text-green-600">Actividades</a>
                     <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
+                    <a href="/hoteles" class="text-gray-600 font-medium">Hoteles</a>
                     <a href="/viajes" class="text-gray-700 font-medium hover:text-green-600">Mis Viajes</a>
                     <!-- Avatar de usuario -->
                      <a href="{{ url('/sesion') }}">

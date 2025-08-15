@@ -20,6 +20,7 @@
                     <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>
                     <a href="/actividades" class="text-gray-700 hover:text-green-600">Actividades</a>
                     <a href="/restaurantes" class="text-green-600 font-medium">Restaurantes</a>
+                    <a href="/hoteles" class="text-gray-600 font-medium">Hoteles</a>
                     <a href="/viajes" class="text-gray-700 hover:text-green-600">Mis Viajes</a>
                     <!-- Avatar de usuario -->
                      <!-- Avatar de usuario enlazado a sesión iniciada -->

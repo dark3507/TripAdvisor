@@ -21,6 +21,7 @@
                     <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>
                     <a href="/actividades" class="text-green-600 font-medium">Actividades</a>
                     <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
+                    <a href="/hoteles" class="text-gray-600 font-medium">Hoteles</a>
                     <a href="/viajes" class="text-gray-700 hover:text-green-600">Mis Viajes</a>
                      <a href="{{ url('/sesion') }}">
         <div class="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">

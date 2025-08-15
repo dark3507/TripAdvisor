@@ -21,6 +21,7 @@
                     <a href="/destinos" class="text-gray-700 hover:text-green-600">Destinos</a>
                     <a href="/actividades" class="text-gray-700 hover:text-green-600">Actividades</a>
                     <a href="/restaurantes" class="text-gray-700 hover:text-green-600">Restaurantes</a>
+                    <a href="/hoteles" class="text-gray-600 font-medium">Hoteles</a>
 
                     <!-- Menú de usuario -->
                     <div class="relative ml-3">
@@ -76,7 +77,13 @@
                     <input type="text" placeholder="Buscar destinos, hoteles, cosas para hacer..." 
                            class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
                     <button class="absolute right-2 top-2 bg-green-600 text-white p-2 rounded-md hover:bg-green-700">
-                        <i class="fas fa-search"></i> Buscar
+                    <a href="{{ url('/hoteles') }}" 
+   class="bg-green-600 hover:bg-green-700 text-white px-2 py-1 rounded inline-flex items-center text-sm">
+    <i class="fas fa-search mr-1"></i> Buscar
+</a>
+
+</a>
+
                     </button>
                 </div>
             </div>
