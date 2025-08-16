@@ -12,9 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tbl_etiquetas', function (Blueprint $table) {
-            $table->integer("id_etiqueta");
-            $table->string("nombre_etiqueta", 50);
-            $table->text("descripcion");
+            $table->integer('id_etiqueta');
+            $table->string('nombre_etiqueta', 50);
+            $table->text('descripcion');
         });
     }
 

@@ -4,15 +4,16 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TBL_Clasificaciones_Tipos extends Model
+class TBL_Promociones extends Model
 {
-    protected $table = 'tbl_clasificaciones_tipos';
-    protected $primaryKey = 'id_clasificacion_tipo';
+protected $table = 'tbl_promociones';
+    protected $primaryKey = 'id_promocion';
     public $timestamps = false;
     public $incrementing = true;
     protected $keyType = 'int';
 
     protected $fillable = [
-        'nombre_clasificacion_tipo'
+        'descuento',
+        'codigo_promocion'
     ];
 }

@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tbl_clasificaciones_tipos', function (Blueprint $table) {
-            $table->increments("id_clasificacion_tipo");
-            $table->string("nombre_clasificacion_tipo");
+            $table->increments('id_clasificacion_tipo');
+            $table->string('nombre_clasificacion_tipo');
         });
     }
 

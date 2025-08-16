@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tbl_clasificaciones_estados', function (Blueprint $table) {
-            $table->integer("id_clasificacion_estado");
-            $table->string("nombre_clasificacion_estado", 50);
+            $table->integer('id_clasificacion_estado');
+            $table->string('nombre_clasificacion_estado', 50);
         });
     }
 
