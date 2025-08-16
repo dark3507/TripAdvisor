@@ -4,17 +4,16 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TBL_Usuarios_X_Roles extends Model
+class TBL_Favoritos extends Model
 {
-protected $table = 'tbl_usuarios_x_roles';
+    protected $table = 'tbl_favoritos';
     public $timestamps = false;
     public $incrementing = false; // porque la PK es compuesta
     protected $primaryKey = null;
 
     protected $fillable = [
         'id_usuario',
-        'id_rol',
-        'fecha_asignacion',
-        'fecha_fin',
+        'id_lugar',
+        'fecha_agregado'
     ];
 }

@@ -11,21 +11,20 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tbl_logs', function (Blueprint $table) {
-            $table->increments('id_log');
+        Schema::create('tbl_telefonos_usuarios', function (Blueprint $table) {
+            $table->integer('id_telefono');
             $table->integer('id_usuario');
-            $table->integer('id_accion_ejecutada');
-            $table->dateTime('fecha_hora')->nullable();
-            $table->string('ip_origen', 11)->nullable();
+
+            $table->primary(['id_telefono', 'id_usuario']);
+
+            $table->foreign('id_telefono')
+                ->references('id_telefono')
+                ->on('tbl_telefonos')
+                ->onDelete('cascade');
 
             $table->foreign('id_usuario')
                 ->references('id_usuario')
                 ->on('tbl_usuarios')
-                ->onDelete('cascade');
-
-            $table->foreign('id_accion_ejecutada')
-                ->references('id_accion_tomada')
-                ->on('tbl_acciones_tomadas')
                 ->onDelete('cascade');
         });
     }
@@ -35,6 +34,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('tbl_logs');
+        Schema::dropIfExists('tbl_telefonos_usuarios');
     }
 };

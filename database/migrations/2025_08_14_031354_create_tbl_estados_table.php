@@ -12,15 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tbl_estados', function (Blueprint $table) {
-            $table->integer("id_estado");
-            $table->integer("id_clasificacion_estado");
-            $table->string("nombre_estado", 50);
-            $table->text("descripcion");
+            $table->integer('id_estado');
+            $table->integer('id_clasificacion_estado');
+            $table->string('nombre_estado', 50);
+            $table->text('descripcion');
 
-            $table->foreign("id_clasificacion_estado")
-                ->references("id_clasificacion_estado")
-                ->on("tbl_clasificaciones_estados")
-                ->onDelete("cascade");
+            $table->foreign('id_clasificacion_estado')
+                ->references('id_clasificacion_estado')
+                ->on('tbl_clasificaciones_estados')
+                ->onDelete('cascade');
         });
     }
 

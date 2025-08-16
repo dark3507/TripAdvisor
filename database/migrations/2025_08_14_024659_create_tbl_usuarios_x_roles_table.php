@@ -12,22 +12,22 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tbl_usuarios_x_roles', function (Blueprint $table) {
-            $table->increments("id_usuario");
-            $table->increments("id_rol");
-            $table->date("fecha_asignacion")->nullable();
-            $table->date("fecha_fin")->nullable();
+            $table->integer('id_usuario');
+            $table->integer('id_rol');
+            $table->date('fecha_asignacion')->nullable();
+            $table->date('fecha_fin')->nullable();
 
-            $table->primary(["id_usuario", "id_rol"]); // PK compuesta
+            $table->primary(['id_usuario', 'id_rol']); // PK compuesta
 
-            $table->foreign("id_usuario")
-                ->references("id_usuario")
-                ->on("tbl_usuarios")
-                ->onDelete("cascade");
+            $table->foreign('id_usuario')
+                ->references('id_usuario')
+                ->on('tbl_usuarios')
+                ->onDelete('cascade');
 
-            $table->foreign("id_rol")
-                ->references("id_rol")
-                ->on("tbl_roles_usuarios")
-                ->onDelete("cascade");
+            $table->foreign('id_rol')
+                ->references('id_rol')
+                ->on('tbl_roles_usuarios')
+                ->onDelete('cascade');
         });
     }
 
