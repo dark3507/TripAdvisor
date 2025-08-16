@@ -114,7 +114,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1583511655826-05700442b31b" alt="Viajar con mascotas" class="rounded-lg w-full">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.rEGtk_TZo51g55vFNFPOZQHaD4?w=1200&h=628&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Viajar con mascotas" class="rounded-lg w-full">
             </div>
             <div class="md:w-1/2">
                 <span class="text-sm text-gray-500">En colaboración con PETVIAJE</span>
@@ -147,7 +147,7 @@
                     </div>
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                    <img src="https://images.unsplash.com/photo-1518688248743-bf3b6f66c318" alt="Capri" class="w-full h-48 object-cover">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.9FsKFwKsIqsqnwNpCSV6FQHaEv?w=1280&h=819&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Capri" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h4 class="font-bold mb-2">Excursión en grupo pequeño a la isla de Capri desde Sorrento</h4>
                         <p class="text-gray-600 text-sm">Descubre la hermosa isla de Capri</p>
